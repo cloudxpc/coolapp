@@ -8,6 +8,7 @@ import AxiosConfig from './config/axios.config';
 import GlobalConfig from './config/global.config';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
+import './main.css';
 
 Vue.use(AxiosConfig);
 Vue.use(GlobalConfig);

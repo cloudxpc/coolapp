@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-5">
+  <div class="container">
     <div class="card-deck">
       <div class="card shadow-sm">
         <div class="bg-secondary text-light" style="height: 180px;">

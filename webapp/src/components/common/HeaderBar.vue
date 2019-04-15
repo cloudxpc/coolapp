@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="bg-white">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="javascript:;">Navbar</a>

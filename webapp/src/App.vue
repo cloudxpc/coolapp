@@ -15,7 +15,3 @@
     components: {FooterBar, HeaderBar}
   }
 </script>
-
-<style>
-
-</style>

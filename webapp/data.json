@@ -31,7 +31,7 @@
       "description": "eeeeeeeee"
     }
   ],
-  "left-image-intro": {
+  "leftImageIntro": {
     "img": "https://wizixo.webestica.com/assets/images/portfolio/04.jpg",
     "title": "关注听力障碍人群",
     "description": "我们的责任我们的义务我们有能力做好给听力障碍人士一个温暖的服务"
@@ -40,16 +40,16 @@
     "title": "我们竭诚为您服务",
     "description": "这里是专业的介绍，这里是专业的服务，这里有专业的人群"
   },
-  "right-image-intro": {
+  "rightImageIntro": {
     "img": "https://wizixo.webestica.com/assets/images/portfolio/06.jpg",
     "title": "上帝的烦恼我无路可",
     "description": "斯蒂芬屋内那是毒品怕死的电脑扫地弄拉萨我哦请你顶风"
   },
-  "ad-area": {
+  "adArea": {
     "title": "adsfsdfsdf",
     "description": "sdfdsfsdfsdfsdfsdff"
   },
-  "card-area": {
+  "cardArea": {
     "title": "adsfsdfsdf",
     "description": "sdfdsfsdfsdfsdfsdff",
     "cards": [

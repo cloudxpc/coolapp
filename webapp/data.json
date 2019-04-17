@@ -1,3 +1,22 @@
 {
-  "v": "1.1"
+  "carousels": [
+    {
+      "img": "https://wizixo.webestica.com/assets/images/banner/05.jpg",
+      "title": "aaa",
+      "subtitle": "sdf",
+      "description": "xcvcxvdfwefewf"
+    },
+    {
+      "img": "https://wizixo.webestica.com/assets/images/banner/06.jpg",
+      "title": "bbb",
+      "subtitle": "bbb",
+      "description": "bbbbbbbbbbbbb"
+    },
+    {
+      "img": "https://wizixo.webestica.com/assets/images/banner/07.jpg",
+      "title": "ccc",
+      "subtitle": "ccccc",
+      "description": "cccccccccccc"
+    }
+  ]
 }

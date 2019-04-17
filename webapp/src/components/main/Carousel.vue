@@ -1,43 +1,19 @@
 <template>
   <div id="carousel-main" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-main" data-slide-to="1"></li>
-      <li data-target="#carousel-main" data-slide-to="2"></li>
+      <li v-for="(item, index) in carousels"
+          data-target="#carousel-main"
+          :data-slide-to="index"
+          :class="{'active':index === 0}"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="bg-dark text-light carousel-img img-1">
-          <h1
-            style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block;">
-            First</h1>
+      <div v-for="(item, index) in carousels" class="carousel-item" :class="{'active': index === 0}">
+        <div class="bg-dark text-light carousel-img" :style="{'background-image':'url(\'' + item.img + '\')'}">
+          <h1 style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block;" v-text="item.title"></h1>
         </div>
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="bg-dark text-light carousel-img img-2">
-          <h1
-            style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block;">
-            Second
-          </h1>
-        </div>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="bg-dark text-light carousel-img img-3">
-          <h1
-            style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); display: inline-block;">
-            Third</h1>
-        </div>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h5 v-text="item.subtitle"></h5>
+          <p v-text="item.description"></p>
         </div>
       </div>
     </div>
@@ -54,7 +30,8 @@
 
 <script>
   export default {
-    name: 'Carousel'
+    name: 'Carousel',
+    props: ['carousels']
   }
 </script>
 
@@ -64,17 +41,5 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-  }
-
-  .img-1 {
-    background-image: url('https://wizixo.webestica.com/assets/images/banner/05.jpg');
-  }
-
-  .img-2 {
-    background-image: url('https://wizixo.webestica.com/assets/images/banner/02.jpg');
-  }
-
-  .img-3 {
-    background-image: url('https://wizixo.webestica.com/assets/images/banner/07.jpg');
   }
 </style>

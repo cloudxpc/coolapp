@@ -1,6 +1,9 @@
 import Vue from 'vue';
 
 export const eventBus = new Vue({
+  data: {
+    setting: {}
+  },
   computed: {
     baseUrl: function () {
       return 'http://localhost:8080';

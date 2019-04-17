@@ -9,6 +9,13 @@ import GlobalConfig from './config/global.config';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import './main.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faAssistiveListeningSystems } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faAssistiveListeningSystems);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(AxiosConfig);
 Vue.use(GlobalConfig);

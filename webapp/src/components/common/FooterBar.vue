@@ -2,7 +2,7 @@
   <footer class="footer py-5 bg-dark text-white-50">
     <div class="container">
       <div class="row">
-        <div class="col-md">
+        <div class="col-md mb-4 mb-md-0">
           <h3 class="mb-4">联系方式</h3>
           <p class="mb-0"><small>地址：天津市南开区芥园道55号</small></p>
           <p class="mb-0"><small>固话：022-26347554</small></p>

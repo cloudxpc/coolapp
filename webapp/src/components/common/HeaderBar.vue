@@ -41,7 +41,7 @@
             <div class="input-group">
               <input class="form-control" type="search" placeholder="填入搜索内容" aria-label="Search">
               <div class="input-group-append">
-                <button class="cool-btn my-2 my-sm-0" type="button" style="border-top-left-radius: 0;border-bottom-left-radius: 0;">搜索</button>
+                <button class="cool-btn" type="button" style="border-top-left-radius: 0;border-bottom-left-radius: 0;">搜索</button>
               </div>
             </div>
           </form>

@@ -19,7 +19,7 @@
               </router-link>
             </li>
             <li class="nav-item mr-lg-4">
-              <router-link class="nav-link" to="/hello">产品</router-link>
+              <router-link class="nav-link" to="/product/list">产品</router-link>
             </li>
             <li class="nav-item mr-lg-4">
               <router-link class="nav-link" to="/hello">听力知识</router-link>

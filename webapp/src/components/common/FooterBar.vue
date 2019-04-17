@@ -1,7 +1,36 @@
 <template>
-  <footer class="footer">
+  <footer class="footer py-5 bg-dark text-white-50">
     <div class="container">
-      <h1>this is footer</h1>
+      <div class="row">
+        <div class="col-md">
+          <h3 class="mb-4">联系方式</h3>
+          <p class="mb-0"><small>地址：天津市南开区芥园道55号</small></p>
+          <p class="mb-0"><small>固话：022-26347554</small></p>
+          <p class="mb-0"><small>手机：13303312353</small></p>
+        </div>
+        <div class="col-md">
+          <div class="row">
+            <div class="col">
+              <p class="text-light mb-1">产品</p>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+            </div>
+            <div class="col">
+              <p class="text-light mb-1">团队</p>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+            </div>
+            <div class="col">
+              <p class="text-light mb-1">关于我们</p>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+              <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -14,9 +43,9 @@
 
 <style scoped>
   .footer {
-    height: 200px;
-    background: linear-gradient(150deg, #97c74e, #2ab9a5);
-    color: #ffffff;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, .1) inset;
+    /*height: 200px;*/
+    /*background: linear-gradient(150deg, #97c74e, #2ab9a5);*/
+    /*color: #ffffff;*/
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3) inset;
   }
 </style>

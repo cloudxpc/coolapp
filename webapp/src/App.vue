@@ -22,7 +22,7 @@
     components: {Loading, FooterBar, HeaderBar},
     created() {
       this.isLoading = true;
-      this.$axios.get('https://cloudxpc.github.io/coolapp/webapp/data.json').then(response => {
+      this.$axios.get(this.$eventBus.dataUrl).then(response => {
         this.$eventBus.setting = response.data;
         this.isLoading = false;
       }, error => {

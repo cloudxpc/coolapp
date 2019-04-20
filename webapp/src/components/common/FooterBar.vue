@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer py-5 bg-dark text-white-50">
+  <footer class="footer py-5 bg-color text-light">
     <div class="container">
       <div class="row">
         <div class="col-md mb-4 mb-md-0">
@@ -11,19 +11,19 @@
         <div class="col-md">
           <div class="row">
             <div class="col">
-              <p class="text-light mb-1">产品</p>
+              <p class="mb-1">产品</p>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
             </div>
             <div class="col">
-              <p class="text-light mb-1">团队</p>
+              <p class="mb-1">团队</p>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
             </div>
             <div class="col">
-              <p class="text-light mb-1">关于我们</p>
+              <p class="mb-1">关于我们</p>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
               <div><a href="javascript:;" class="btn btn-link p-0 text-reset"><small>联系合作</small></a></div>
@@ -43,9 +43,6 @@
 
 <style scoped>
   .footer {
-    /*height: 200px;*/
-    /*background: linear-gradient(150deg, #97c74e, #2ab9a5);*/
-    /*color: #ffffff;*/
     box-shadow: 0 10px 10px rgba(0, 0, 0, .3) inset;
   }
 </style>

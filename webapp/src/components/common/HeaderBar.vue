@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white">
+  <header class="bg-white sticky-top">
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
         <span class="navbar-brand mb-0 h1 mr-lg-5">
@@ -13,15 +13,15 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item mr-lg-4 active">
+            <li class="nav-item mr-lg-4" :class="{'active':this.$route.path === '/'}">
               <router-link class="nav-link" to="/">首页
                 <span class="sr-only">(current)</span>
               </router-link>
             </li>
-            <li class="nav-item mr-lg-4">
+            <li class="nav-item mr-lg-4" :class="{'active':this.$route.path.startsWith('/product/')}">
               <router-link class="nav-link" to="/product/list">产品</router-link>
             </li>
-            <li class="nav-item mr-lg-4">
+            <li class="nav-item mr-lg-4" :class="{'active':this.$route.path === '/ff'}">
               <router-link class="nav-link" to="/hello">听力知识</router-link>
             </li>
             <li class="nav-item dropdown">

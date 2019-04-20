@@ -7,6 +7,12 @@ export const eventBus = new Vue({
   computed: {
     baseUrl: function () {
       return 'http://localhost:8080';
+    },
+    dataUrl: function () {
+      return 'https://ltzs.uutic.com/webapp/data.json';
+    },
+    productUrl: function () {
+      return 'https://ltzs.uutic.com/webapp/product.json';
     }
   },
   methods: {

@@ -9,10 +9,10 @@ export const eventBus = new Vue({
       return 'http://localhost:8080';
     },
     dataUrl: function () {
-      return 'https://ltzs.uutic.com/data.json';
+      return 'https://ltsite.uutic.com/data.json';
     },
     productUrl: function () {
-      return 'https://ltzs.uutic.com/product.json';
+      return 'https://ltsite.uutic.com/product.json';
     }
   },
   methods: {

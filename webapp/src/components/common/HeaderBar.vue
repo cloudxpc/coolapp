@@ -12,40 +12,16 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item mr-lg-4" :class="{'active':this.$route.path === '/'}">
               <router-link class="nav-link" to="/">首页
                 <span class="sr-only">(current)</span>
               </router-link>
             </li>
-            <li class="nav-item mr-lg-4" :class="{'active':this.$route.path.startsWith('/product/')}">
-              <router-link class="nav-link" to="/product/list">产品</router-link>
-            </li>
-            <li class="nav-item mr-lg-4" :class="{'active':this.$route.path === '/ff'}">
-              <router-link class="nav-link" to="/hello">听力知识</router-link>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdown" role="button"
-                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="javascript:;">Action</a>
-                <a class="dropdown-item" href="javascript:;">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="javascript:;">Something else here</a>
-              </div>
-            </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <div class="input-group">
-              <input class="form-control" type="search" placeholder="填入搜索内容" aria-label="Search">
-              <div class="input-group-append">
-                <button class="cool-btn" type="button" style="border-top-left-radius: 0;border-bottom-left-radius: 0;">搜索</button>
-              </div>
-            </div>
+            <router-link class="cool-btn text-white text-decoration-none" to="/about"><font-awesome-icon icon="phone-volume"></font-awesome-icon>&nbsp;联系我们</router-link>
           </form>
-
         </div>
       </nav>
     </div>

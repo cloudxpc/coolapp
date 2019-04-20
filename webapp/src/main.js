@@ -11,9 +11,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.js'
 import './main.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faAssistiveListeningSystems } from '@fortawesome/free-solid-svg-icons'
+import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faAssistiveListeningSystems);
+library.add(faAssistiveListeningSystems, faPhoneVolume);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

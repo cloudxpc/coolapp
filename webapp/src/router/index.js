@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainPage from "../components/main/MainPage";
-import ProductList from "../components/product/ProductList";
+import About from "../components/about/About";
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     { path: '/', name: 'MainPage', component: MainPage },
-    { path: '/product/list', name: 'ProductList', component: ProductList },
+    { path: '/about', name: 'About', component: About },
   ]
 })

@@ -86,5 +86,8 @@ module.exports = {
       jQuery: "jquery",
       "windows.jQuery": "jquery"
     })
-  ]
+  ],
+  externals: {
+    'AMap': 'AMap'
+  }
 }

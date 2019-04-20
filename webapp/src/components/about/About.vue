@@ -29,7 +29,7 @@
 
       const marker = new AMap.Marker({
         position: new AMap.LngLat(117.142225,39.137568),
-        title: '天津'
+        title: this.$eventBus.setting.brand
       });
 
       map.add(marker);
